@@ -39,7 +39,7 @@ upload.controller('Load_Data_Controller', function($rootScope, $scope, $http, $l
 
                 if (page_data == 'posts') {
                     // var URL_API_Load = 'http://localhost/Angular2026/admin/CrudDataController/get_all';
-                    var URL_API_Load = 'http://localhost/FashionTemplateAdmin/Data/posts.json';
+                    var URL_API_Load = 'https://hqmultimedia.github.io/test-2/Data/posts.json';
 
                     // dữ liệu offline
                     // var URL_API_Load = 'http://localhost/FashionTemplateAdmin/Data/order.json';
@@ -48,17 +48,17 @@ upload.controller('Load_Data_Controller', function($rootScope, $scope, $http, $l
 
                     // vì là dữ liệu tĩnh nên phải dùng nhiều API để load dữ liệu ..khi chuyển sang sử dụng CSDL chi dùng 1 API để load dữ liệu kèm theo biến option value truyền đến controller 
                     // var URL_API_Load = 'http://localhost/Angular2026/admin/CrudDataController/get_data_box_trash';
-                    var URL_API_Load = 'http://localhost/FashionTemplateAdmin/Data/donhang.json';
+                    var URL_API_Load = 'https://hqmultimedia.github.io/test-2/Data/donhang.json';
                     if (option_value == 'processed') {
                         var URL_API_Load = 'http://localhost/FashionTemplateAdmin/Data/donhang-processed.json';
 
                     }
                     if (option_value == 'no_processed') {
-                        var URL_API_Load = 'http://localhost/FashionTemplateAdmin/Data/donhang-no-processed.json';
+                        var URL_API_Load = 'https://hqmultimedia.github.io/test-2/Data/donhang-no-processed.json';
 
                     }
                     if (option_value == 'transport') {
-                        var URL_API_Load = 'http://localhost/FashionTemplateAdmin/Data/donhang-transport.json';
+                        var URL_API_Load = 'https://hqmultimedia.github.io/test-2/Data/donhang-transport.json';
 
                     }
                     if (option_value == 'complete') {
@@ -68,27 +68,27 @@ upload.controller('Load_Data_Controller', function($rootScope, $scope, $http, $l
                 }
                 if (page_data == 'preview_order') {
                     // var URL_API_Load = 'http://localhost/Angular2026/admin/CrudDataController/get_data_box_trash';
-                    var URL_API_Load = 'http://localhost/FashionTemplateAdmin/Data/chitiet-donhang.json';
+                    var URL_API_Load = 'https://hqmultimedia.github.io/test-2/Data/chitiet-donhang.json';
                 }
                 if (page_data == 'product') {
                     // var URL_API_Load = 'http://localhost/Angular2026/admin/CrudDataController/get_data_box_trash';
-                    var URL_API_Load = 'http://localhost/FashionTemplateAdmin/Data/product.json';
+                    var URL_API_Load = 'https://hqmultimedia.github.io/test-2/Data/product.json';
                 }
                 if (page_data == 'category') {
                     // var URL_API_Load = 'http://localhost/Angular2026/admin/CrudDataController/get_data_box_trash';
-                    var URL_API_Load = 'http://localhost/FashionTemplateAdmin/Data/category.json';
+                    var URL_API_Load = 'https://hqmultimedia.github.io/test-2/Data/category.json';
                 }
                 if (page_data == 'comment') {
                     // var URL_API_Load = 'http://localhost/Angular2026/admin/CrudDataController/get_data_box_trash';
-                    var URL_API_Load = 'http://localhost/FashionTemplateAdmin/Data/comment.json';
+                    var URL_API_Load = 'https://hqmultimedia.github.io/test-2/Data/comment.json';
                 }
                 if (page_data == 'client') {
                     // var URL_API_Load = 'http://localhost/Angular2026/admin/CrudDataController/get_data_box_trash';
-                    var URL_API_Load = 'http://localhost/FashionTemplateAdmin/Data/client.json';
+                    var URL_API_Load = 'https://hqmultimedia.github.io/test-2/Data/client.json';
                 }
                 if (page_data == 'baner') {
                     // var URL_API_Load = 'http://localhost/Angular2026/admin/CrudDataController/get_data_box_trash';
-                    var URL_API_Load = 'http://localhost/FashionTemplateAdmin/Data/baner.json';
+                    var URL_API_Load = 'https://hqmultimedia.github.io/test-2/Data/baner.json';
                 }
 
 
@@ -118,19 +118,19 @@ upload.controller('Load_Data_Controller', function($rootScope, $scope, $http, $l
 
                 if (page_data == 'posts') {
                     // var URL_API_Load = 'http://localhost/Angular2026/admin/CrudDataController/get_data_box_trash';
-                    var URL_API_Load = 'http://localhost/FashionTemplateAdmin/Data/data-trash.json';
+                    var URL_API_Load = 'https://hqmultimedia.github.io/test-2/Data/data-trash.json';
                 }
                 if (page_data == 'product') {
                     // var URL_API_Load = 'http://localhost/Angular2026/admin/CrudDataController/get_data_box_trash';
-                    var URL_API_Load = 'http://localhost/FashionTemplateAdmin/Data/data-trash-product.json';
+                    var URL_API_Load = 'https://hqmultimedia.github.io/test-2/Data/data-trash-product.json';
                 }
                 if (page_data == 'category') {
                     // var URL_API_Load = 'http://localhost/Angular2026/admin/CrudDataController/get_data_box_trash';
-                    var URL_API_Load = 'http://localhost/FashionTemplateAdmin/Data/data-trash-category.json';
+                    var URL_API_Load = 'https://hqmultimedia.github.io/test-2/Data/data-trash-category.json';
                 }
                 if (page_data == 'baner') {
                     // var URL_API_Load = 'http://localhost/Angular2026/admin/CrudDataController/get_data_box_trash';
-                    var URL_API_Load = 'http://localhost/FashionTemplateAdmin/Data/data-trash-baner.json';
+                    var URL_API_Load = 'https://hqmultimedia.github.io/test-2/Data/data-trash-baner.json';
                 }
 
 
