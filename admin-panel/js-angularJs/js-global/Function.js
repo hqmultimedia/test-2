@@ -44,16 +44,7 @@ upload.controller('Function_Controller', function($rootScope, $scope, $http, $lo
 
 
         //TH2 : khi F5 trang ( logic ngăn chặn khi chưa login )
-        if (!localStorage.getItem("data_Login")) {
-
-            $location.path('/login');
-
-
-
-        } else {
-            // get lại dữ liệu user từ localstorage
-            $rootScope.info = angular.fromJson(localStorage.getItem("data_Login"));
-        }
+        
 
 
 
