@@ -1,6 +1,16 @@
 upload.controller('LoginRegisterController', function($rootScope, $scope, $http, $location) {
 
-        
+        if (!localStorage.getItem("data_Login")) {
+            // gọi đến hàm bật tắt sidebar trong HQ-Js
+            hidden_menu_footer();
+             $location.path('/home');
+
+        } else {
+
+            $location.path('/home');
+
+        }
+
 
         //B. setting mặc định view login được hiển thị đầu tiên 
         $scope.loginReg = true;
