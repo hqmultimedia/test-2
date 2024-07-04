@@ -1,0 +1,8 @@
+.box-theme {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.box-theme .element-theme {
+    width: 33.33%;
+}

@@ -1,0 +1,30 @@
+<div ng-controller="LoginRegisterController" class=" theme-03 background-login-register container-fluid" style="background-image: url(https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2023/2/15/1148231/Anh-7.jpg) ;">
+
+    <div class="row father-box-login-register">
+        <div class="col-12 col-lg-8 element-left relative">
+            <img src="https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2023/2/15/1148231/Anh-7.jpg" width="100%" alt="">
+            <div class="box-text">
+                <h3 class="">Don't have an account ?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aliquam quidem illo rerum esse sequi modi.</p>
+
+                <div class="box-icon">
+                    <p class="padding-lr-5 margin-b-5 weight-500">Log in with : </p>
+                    <a href=""> <i class="fa-brands fa-facebook "></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <!-- 01.Login -->
+        <div class="box-login-register col-12 col-lg-4" ng-include="'content-admin-panel/page-components/login-resgiter/login.html'" ng-show="loginReg"></div>
+        <!-- 01.End Login -->
+
+        <!-- 02.Register -->
+        <div class="box-login-register col-12 col-lg-4" ng-include="'content-admin-panel/page-components/login-resgiter/register.html'" ng-show="!loginReg"></div>
+        <!-- 02.End Register -->
+    </div>
+
+
+</div>

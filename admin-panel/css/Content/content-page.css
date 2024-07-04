@@ -1,0 +1,68 @@
+/* page : preview-order */
+
+.button-note-order,
+.button-edit-order,
+.button-cancel-order {
+    width: 100%;
+    margin: 5px 0 5px 0;
+}
+
+.button-note-order button,
+.button-edit-order button,
+.button-cancel-order button {
+    width: 100%;
+}
+
+
+/* Trang category */
+
+.box-button-form-add-category {
+    position: absolute;
+    top: 299px;
+    left: 15px;
+}
+
+@media (min-width:320px) and (max-width:767px) {
+    .box-button-form-add-category {
+        top: auto;
+        left: 15px;
+        bottom: 15px;
+    }
+}
+
+
+/* End trang category */
+
+
+/* Trang posts */
+
+.box-button-form-add-posts {
+    position: absolute;
+    top: 379px;
+    left: 15px;
+}
+
+@media (min-width:320px) and (max-width:767px) {
+    .box-button-form-add-posts {
+        top: auto;
+        left: 15px;
+        bottom: 15px;
+    }
+}
+
+
+/* End trang posts */
+
+
+/* Trang comment */
+
+.comment-content {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* End trang comment */
