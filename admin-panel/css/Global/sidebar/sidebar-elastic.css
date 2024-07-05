@@ -207,6 +207,7 @@
         left: -100%;
         transition: 0.4s;
         height: 100vh;
+		overflow: scroll;
     }
     /* setting khối menu */
     .elastic.sidebar-menu-setting {
