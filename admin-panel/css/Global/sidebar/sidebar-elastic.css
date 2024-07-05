@@ -38,6 +38,7 @@
     /* position: relative; */
     position: fixed;
     z-index: 9999;
+	 overflow: scroll;
 }
 
 .box-sidebar.elastic.show-sidebar-elastic {
