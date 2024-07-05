@@ -242,6 +242,7 @@
     overflow: scroll;
     width: var(--width--sidebar);
     z-index: 99;
+	padding-bottom:68px;
 }
 
 
